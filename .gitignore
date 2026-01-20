@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Documentation and explanation files (keeping only essential ones)
+FRONTEND_LEARNING_GUIDE.md
+FRONTEND_MENTOR_EXPLANATION.md
+MENTOR_PRESENTATION_CHEAT_SHEET.md
+FIXES_SUMMARY.md
+STATUS.md
+MERN_STACK_COMPLETE.md
+BACKEND_COMPLETE.md
+FRONTEND_DEVELOPMENT_PLAN.md
+FRONTEND_PROGRESS_SUMMARY.md
+LOGIN_SYSTEM_SUMMARY.md
+POSTMAN_TESTING_GUIDE.md
+CART_SYSTEM_DETAILED_EXPLANATION.md
+API_DOCUMENTATION.md
+GITHUB_NAVIGATION_GUIDE.md
+GITHUB_UPLOAD_CHECKLIST.md
+GITHUB_FRONTEND_CONFIRMATION.md
+REPOSITORIES_READY.md
+SEPARATE_REPOS_SETUP.md
+UPLOAD_VERIFICATION.md
+
+# IDE and OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+
+# Build directories
+build/
+dist/
+.next/
+
+# Temporary files
+.tmp/
+temp/
+
+# Test files
+test-*.js
+
+# Database
+*.db
+*.sqlite
+
+# Setup scripts
+setup-*.sh
+create-separate-repos.sh
+git-setup.sh
+push-to-existing-repo.sh
